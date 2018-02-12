@@ -54,7 +54,7 @@ session.commit()
 
 
 # Items for Cars
-category1 = Category(name="horses", user_id=1)
+category1 = Category(name="Cars", user_id=1)
 
 session.add(category1)
 session.commit()
